@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    background-color: #ffae00;
+}
+
+body, input, button, textarea{
+    font: 600 10px Roboto, sans-serif;
+}

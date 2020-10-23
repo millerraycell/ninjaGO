@@ -1,0 +1,172 @@
+#update-ninja{
+    display: inline;
+}
+
+#update-ninja header{
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#update-ninja header h1{
+    margin-right: 80px;
+}
+
+#update-ninja header .go-back{
+    width: 50px;
+
+    background: rgb(202, 88, 0);
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+}
+
+#update-ninja header .go-back:hover{
+    background-color:rgb(255, 102, 0);
+}
+
+#update-ninja header img{
+    margin-left: 10px;
+    max-width: 5%;
+    height:auto;
+}
+
+#update-ninja form.update-ninja-form {
+    width: 700px;
+    margin: 30px auto;
+  
+    background: #ffffff;
+    border: 1px solid #d3e2e5;
+    border-radius: 20px;
+  
+    padding: 40px 80px;
+  
+    overflow: hidden;
+}
+
+
+fieldset {
+    border: 0;
+}
+
+#update-ninja .dados-ninja .input-block + .input-block {
+    margin-top: 24px;
+}
+
+#update-ninja .dados-ninja .input-block label {
+    font-size: 24px;
+    
+    display: flex;
+    color: #000000;
+    margin-bottom: 8px;
+    line-height: 24px;
+}
+
+#update-ninja .dados-ninja .input-block input,
+#update-ninja .dados-ninja .input-block textarea {
+    font-size: 12px;
+    
+    width: 100%;
+    background: #dbdddf;
+    border: 1px solid #b3b3b3;
+    border-radius: 20px;
+    outline: none;
+    color: #000000;
+}
+
+#update-ninja .dados-ninja .input-block input {
+    height: 40px;
+    padding: 0 16px;
+}
+
+#update-ninja .dados-ninja .input-block textarea {
+    min-height: 120px;
+    max-height: 240px;
+    resize: vertical;
+    padding: 16px;
+    line-height: 28px;
+}
+
+#update-ninja .dados-ninja .input-block select option{
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+#update-ninja .dados-ninja .input-block select {
+    font-size: 12px;
+    
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+
+    background: #dbdddf;
+    border: 1px solid #b3b3b3;
+    border-radius: 20px;
+    outline: none;
+    color: #000000;
+}
+
+#update-ninja .ninjas-list{
+    border-style: solid;
+    border-radius: 10px;
+    
+    flex: 1;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+#update-ninja .ninjas-list ul.list .dados{
+    margin: 10px 10px 10px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#update-ninja .ninjas-list ul.list li button{
+    background-color: #ffffff;
+    border-radius: 8px;
+
+    transition: background-color 0.2s;
+}
+
+#update-ninja .ninjas-list ul.list li button:hover{
+    background-color: #aaa;
+}
+
+#update-ninja form.update-ninja-form .button-send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#update-ninja form.update-ninja-form .confirm-button{
+    width: 200px;
+    height: 30px;
+
+    margin-top: 20px;    
+
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    
+    background: rgb(202, 88, 0);
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+}
+
+#update-ninja form.update-ninja-form .confirm-button:hover{
+    background-color:rgb(255, 102, 0);
+}
