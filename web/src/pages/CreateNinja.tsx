@@ -35,7 +35,7 @@ function CreateNinja(){
         
         alert("Cadastrando Ninja");
         
-        history.push('\ninjas')
+        history.push('/ninjas');
     }
 
     return(
